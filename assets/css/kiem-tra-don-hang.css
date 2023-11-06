@@ -1,0 +1,57 @@
+.menu-cate-content {
+    display: none;
+}
+
+.main {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.order-tracking {
+    margin-bottom: 15px;
+}
+
+.tracking-title {
+    margin-top: 15px;
+    color: #373737;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.tracking-block {
+    padding: 10px;
+    background-color: #eaeaea;
+    margin-bottom: 15px;
+}
+
+.order-tracking-form span {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.inp-order-tracking {
+    padding: 6px 12px;
+    color: #aaaaaa;
+    min-width: 30%;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+
+.btn-order-tracking {
+    height: 34px;
+    border: none;
+    background-color: red;
+}
+
+.btn-order-tracking:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}

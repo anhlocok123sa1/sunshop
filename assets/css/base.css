@@ -1,0 +1,74 @@
+:root {
+    --primary-color:#01c4c4;
+    --gray:#aaaaaa;
+    --white:#fff;
+    --black:#000;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    color: var(--black);
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+/* Responesive */
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* Test */
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+
+/* Animation */
+@keyframes touch {
+    from {
+        background-color: var(--primary-color);
+    }
+    to {
+        background-color: #f6f6f6;
+    }
+}
