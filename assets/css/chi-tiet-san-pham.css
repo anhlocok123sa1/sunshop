@@ -1,0 +1,174 @@
+.menu-cate-content {
+    display: none;
+}
+
+.name {
+    background-color: #01c4c4;
+    border-bottom: 2px solid #aaaaaa;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px 10px;
+    text-transform: uppercase;
+}
+
+.detail-sale-policy-list {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 5px;
+    background-color: #f6f6f6;
+    counter-reset: item;
+}
+
+.detail-sale-policy-item::before {
+    content: counter(item) "";
+    counter-increment: item;
+    background: #01c4c4;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 2px 7px;
+}
+
+.detail-sale-policy-item {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.buy-guild-list {
+    padding: 10px;
+    border: 1px solid #c3c3c3;
+    counter-reset: item;
+}
+
+.buy-guild-item::before {
+    display: inline-block;
+    content: counter(item) ".";
+    counter-increment: item;
+    font-weight: bold;
+}
+
+.buy-guild-item {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.content .container {
+    align-items: flex-start;
+}
+
+.sp-wrap {
+    line-height: 0;
+    font-size: 0;
+    background: #eee;
+    border: 5px solid #eee;
+    border-radius: 3px;
+    position: relative;
+    margin: 0 25px 15px 0;
+    float: left;
+    max-width: 380px;
+}
+
+.sp-large {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.sp-current-big img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.sp-thumbs {
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.sp-thumbs a:link, .sp-thumbs a:visited {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    opacity: .5;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    margin: 3px;
+}
+
+.sp-thumbs a:active, .sp-current {
+    opacity: 1!important;
+    position: relative;
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 10px #dddddd;
+}
+
+.ng-binding {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #373737;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 3rem;
+}
+
+.prices {
+    color: #ff0000;
+    font-size: 3rem;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.quantity label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.quantity-input input {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.button-input {
+    display: flex;
+}
+
+.button-input div span {
+    margin-left: 5px;
+}
+
+.product-tabs {
+    margin: 15px 0;
+}
+
+.nav li a {
+    background-color: #01c4c4;
+    border: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.tab-content {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
